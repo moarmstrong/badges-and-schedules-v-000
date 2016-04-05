@@ -5,7 +5,7 @@ end
 def batch_badge_creator(array)
   array.collect{|name| badge_maker(name)}
 end
-
+#Assign Rooms
 def assign_rooms(array)
   arr = []
   array.each_with_index do |name, index|
